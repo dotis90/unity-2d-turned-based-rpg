@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4ae481d0585634584aa0f040a97b6e, type: 3}
+  m_Name: Venasaur
+  m_EditorClassIdentifier: 
+  name: Venasaur
+  description: 
+  frontSprite: {fileID: 21300000, guid: 843823c80be1fe244945120519a22e53, type: 3}
+  backSprite: {fileID: 21300000, guid: 4ad46572811440e479a498ba4754f89d, type: 3}
+  type1: 12
+  type2: 10
+  maxHp: 60
+  attack: 45
+  defense: 50
+  spAttack: 90
+  spDefense: 80
+  speed: 70
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: c215fcf5881e97b44bb3e9a48ba3b676, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 57c65a53e90c2b64e83e455f499d13c2, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: 16aaf7b7ee337db4ea1d00f5a35bc18e, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: b0d15d26e283e384689f31c23d6cfe2c, type: 2}
+    level: 10
