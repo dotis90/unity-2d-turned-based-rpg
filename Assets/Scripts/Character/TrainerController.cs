@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TrainerController : MonoBehaviour
 {
+    [SerializeField] string _name;
+    [SerializeField] Sprite sprite;
     [SerializeField] Dialogue dialog;
     [SerializeField] GameObject exclamation;
     [SerializeField] GameObject fov;
@@ -37,7 +39,7 @@ public class TrainerController : MonoBehaviour
         // Show dialog
         StartCoroutine(DialogueManager.Instance.ShowDialog(dialog, () =>
         {
-            Debug.Log("Starting trainer battle");
+            GameController.Instance.StartTrainerBattle(this);
         }));
     }
 
@@ -58,5 +60,15 @@ public class TrainerController : MonoBehaviour
         }
 
         fov.transform.eulerAngles = new Vector3(0f, 0f, angle);
+    }
+
+    public string Name
+    {
+        get => _name;
+    }
+
+    public Sprite Sprite
+    {
+        get => sprite;
     }
 }

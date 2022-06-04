@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef4ae481d0585634584aa0f040a97b6e, type: 3}
   m_Name: Venasaur
   m_EditorClassIdentifier: 
-  name: Venasaur
+  _name: Venasaur
   description: 
   frontSprite: {fileID: 21300000, guid: 843823c80be1fe244945120519a22e53, type: 3}
   backSprite: {fileID: 21300000, guid: 4ad46572811440e479a498ba4754f89d, type: 3}
