@@ -38,10 +38,10 @@ Pokemon recreated in Unity.
 ## Branches Start
 
 32. Trainer Battles
+33. Improving Trainer Battles
 
 ## Upcoming
 
-33. Improving Trainer Battles
 34. Catching Pokemon
 35. Run From Battle & Bug Fixes
 36. Experience / Level Up System
