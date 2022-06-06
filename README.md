@@ -39,10 +39,10 @@ Pokemon recreated in Unity.
 
 32. Trainer Battles
 33. Improving Trainer Battles
+34. Catching Pokemon
 
 ## Upcoming
 
-34. Catching Pokemon
 35. Run From Battle & Bug Fixes
 36. Experience / Level Up System
 37. Experience / Level Up System 2
