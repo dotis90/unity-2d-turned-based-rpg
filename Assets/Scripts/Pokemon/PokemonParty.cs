@@ -28,9 +28,15 @@ public class PokemonParty : MonoBehaviour
         return pokemon.Where(x => x.HP > 0).FirstOrDefault();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AddPokemon(Pokemon newPokemon)
     {
-        
+        if (pokemon.Count < 6)
+        {
+            pokemon.Add(newPokemon);
+        }
+        else
+        {
+            // TODO: Add to the PC once that's implemented
+        }
     }
 }

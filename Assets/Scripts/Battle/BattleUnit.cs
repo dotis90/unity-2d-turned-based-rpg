@@ -44,6 +44,7 @@ public class BattleUnit : MonoBehaviour
             image.sprite = Pokemon.Base.FrontSprite;
         }
 
+        transform.localScale = new Vector3(1, 1, 1);
         hud.gameObject.SetActive(true);
         hud.SetData(pokemon);
 
@@ -99,15 +100,21 @@ public class BattleUnit : MonoBehaviour
         sequence.Join(image.DOFade(0f, 0.5f));
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public IEnumerator PlayCaptureAnimation()
     {
-        
+        var sequence = DOTween.Sequence();
+        sequence.Append(image.DOFade(0, 0.5f));
+        sequence.Join(transform.DOLocalMoveY(originalPos.y + 50f, 0.5f));
+        sequence.Join(transform.DOScale(new Vector3(0.3f, 0.3f, 1f), 0.5f));
+        yield return sequence.WaitForCompletion();
     }
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator PlayBreakoutAnimation()
     {
-        
+        var sequence = DOTween.Sequence();
+        sequence.Append(image.DOFade(1, 0.5f));
+        sequence.Join(transform.DOLocalMoveY(originalPos.y, 0.5f));
+        sequence.Join(transform.DOScale(new Vector3(1f, 1f, 1f), 0.5f));
+        yield return sequence.WaitForCompletion();
     }
 }
