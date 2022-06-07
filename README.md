@@ -1,7 +1,7 @@
 # pokemon-unity
 Pokemon recreated in Unity.
 
-## Master Branch Default
+## Features
 
 1. Introduction and Tile Based Movement
 2. Player Animations
@@ -35,15 +35,15 @@ Pokemon recreated in Unity.
 30. Improving NPC Behavior
 31. Adding Trainers
 
-## Branches Start
+### Below Features have their own development branches
 
 32. Trainer Battles
 33. Improving Trainer Battles
 34. Catching Pokemon
-
-## Upcoming
-
 35. Run From Battle & Bug Fixes
+
+### Upcoming
+
 36. Experience / Level Up System
 37. Experience / Level Up System 2
 38. Learning New Moves
