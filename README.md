@@ -1,5 +1,5 @@
 # pokemon-unity
-Pokemon recreated in Unity.
+Pokemon recreated in Unity. Based on the Youtube tutorial series [here][(](https://www.youtube.com/watch?v=_Pm16a18zy8&list=PLLf84Zj7U26kfPQ00JVI2nIoozuPkykDX)).
 
 ## Features
 
@@ -34,17 +34,14 @@ Pokemon recreated in Unity.
 29. Making NPCs Walk
 30. Improving NPC Behavior
 31. Adding Trainers
-
-### Below Features have their own development branches
-
 32. Trainer Battles
 33. Improving Trainer Battles
 34. Catching Pokemon
 35. Run From Battle & Bug Fixes
+36. Experience / Level Up System
 
 ### Upcoming
 
-36. Experience / Level Up System
 37. Experience / Level Up System 2
 38. Learning New Moves
 39. Forgetting Old Moves to Learn New Ones
