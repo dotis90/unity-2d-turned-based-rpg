@@ -40,10 +40,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 35. Run From Battle & Bug Fixes
 36. Experience / Level Up System
 37. Experience / Level Up System 2
+38. Learning New Moves
 
 ### Upcoming
 
-38. Learning New Moves
 39. Forgetting Old Moves to Learn New Ones
 40. Scene Switching 1 - Creating Portals
 41. Scene Switching 2 - Changing Scenes
