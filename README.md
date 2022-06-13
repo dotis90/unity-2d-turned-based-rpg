@@ -43,10 +43,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 38. Learning New Moves
 39. Forgetting Old Moves to Learn New Ones
 40. Scene Switching 1 - Creating Portals
+41. Scene Switching 2 - Changing Scenes
 
 ### Upcoming
 
-41. Scene Switching 2 - Changing Scenes
 42. Scene Switching 3 - Connecting Portals & Fixing Issues
 43. Indoor Scene & Fading on Scene Switch
 44. Additive Scene Loading
@@ -98,3 +98,4 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 90. Customizing MapArea Inspector
 91. Cutting Trees
 92. Surfing
+93. Battles From Water
