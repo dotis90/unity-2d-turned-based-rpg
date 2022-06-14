@@ -44,10 +44,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 39. Forgetting Old Moves to Learn New Ones
 40. Scene Switching 1 - Creating Portals
 41. Scene Switching 2 - Changing Scenes
+42. Scene Switching 3 - Connecting Portals & Fixing Issues
 
 ### Upcoming
 
-42. Scene Switching 3 - Connecting Portals & Fixing Issues
 43. Indoor Scene & Fading on Scene Switch
 44. Additive Scene Loading
 45. Additive Scene Loading 2 & Bug Fixes
@@ -84,7 +84,7 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 76. Bug Fixes in Evolution & Level Up
 77. Healing Pokemon
 78. Dialogue Choices
-79. Shops
+79. Shops 1
 80. Shops 2 - Money
 81. Shops 3 - Sell Multiple Items
 82. Shops 4 - Shop UI
