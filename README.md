@@ -46,10 +46,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 41. Scene Switching 2 - Changing Scenes
 42. Scene Switching 3 - Connecting Portals & Fixing Issues
 43. Indoor Scene & Fading on Scene Switch
+44. Additive Scene Loading
 
 ### Upcoming
 
-44. Additive Scene Loading
 45. Additive Scene Loading 2 & Bug Fixes
 46. Saving/Loading
 47. Saving Player Party
