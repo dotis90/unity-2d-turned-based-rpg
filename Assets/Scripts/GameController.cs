@@ -66,7 +66,7 @@ public class GameController : MonoBehaviour
         worldCamera.gameObject.SetActive(false);        
 
         var playerParty = playerController.GetComponent<PokemonParty>();
-        var wildPokemon = FindObjectOfType<MapArea>().GetComponent<MapArea>().GetWildPokemon();
+        var wildPokemon = CurrentScene.GetComponent<MapArea>().GetWildPokemon();
 
         var wildPokemonCopy = new Pokemon(wildPokemon.Base, wildPokemon.Level);
 

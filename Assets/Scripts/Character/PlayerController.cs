@@ -63,7 +63,6 @@ public class PlayerController : MonoBehaviour
             var triggerable = collider.GetComponent<IPlayerTriggerable>();
             if (triggerable != null)
             {
-                character.Animator.IsMoving = false;
                 triggerable.OnPlayerTriggered(this);
                 break;
             }
@@ -80,5 +79,5 @@ public class PlayerController : MonoBehaviour
         get => sprite;
     }
 
-    public Character Characters => character;
+    public Character Character => character;
 }
