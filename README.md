@@ -48,10 +48,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 43. Indoor Scene & Fading on Scene Switch
 44. Additive Scene Loading
 45. Additive Scene Loading 2 & Bug Fixes
+46. Saving/Loading
 
 ### Upcoming
 
-46. Saving/Loading
 47. Saving Player Party
 48. Persisting Scene States
 49. Creating Menu
