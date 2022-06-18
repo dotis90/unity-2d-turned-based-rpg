@@ -48,8 +48,9 @@ public class Pokemon
 
     public event Action OnStatusChanged;
 
-    public void Init()
-    {       
+    public void Init()    
+    {
+        // Generate Moves
         Moves = new List<Move>();
         foreach(var move in Base.LearnableMoves)
         {
@@ -69,10 +70,49 @@ public class Pokemon
         HP = MaxHp;
 
         StatusChanges = new Queue<string>();
-
         ResetStatBoost();
         Status = null;
         VolatileStatus = null;
+    }
+
+    public Pokemon(PokemonSaveData saveData)
+    {
+        _base = PokemonDB.GetPokemonByName(saveData.name);
+        HP = saveData.hp;
+        level = saveData.level;
+        Exp = saveData.exp;
+
+        if (saveData.statusId != null)
+        {
+            Status = ConditionsDB.Conditions[saveData.statusId.Value];
+        }
+        else
+        {
+            Status = null;
+        }
+
+        Moves = saveData.moves.Select(s => new Move(s)).ToList();
+
+        CalculateStats();
+        StatusChanges = new Queue<string>();
+        ResetStatBoost();
+        Status = null;
+        VolatileStatus = null;
+    }
+
+    public PokemonSaveData GetSaveData()
+    {
+        var saveData = new PokemonSaveData()
+        {
+            name = Base.Name,
+            hp = HP,
+            level = Level,
+            exp = Exp,
+            statusId = Status?.Id,
+            moves = Moves.Select(m => m.GetSaveData()).ToList()
+        };
+
+        return saveData;
     }
 
     void CalculateStats()
@@ -316,7 +356,16 @@ public class DamageDetails
 {
     public bool Fainted { get; set; }
     public float Critical { get; set; }
-
     public float TypeEffectiveness { get; set; }
+}
 
+[System.Serializable]
+public class PokemonSaveData
+{
+    public string name;
+    public int hp;
+    public int level;
+    public int exp;
+    public ConditionID? statusId;
+    public List<MoveSaveData> moves;
 }

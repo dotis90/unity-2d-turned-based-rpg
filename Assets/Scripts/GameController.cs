@@ -25,6 +25,9 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+
+        PokemonDB.Init();
+        MoveDB.Init();
         ConditionsDB.Init();
     }
 
