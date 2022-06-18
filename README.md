@@ -49,10 +49,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 44. Additive Scene Loading
 45. Additive Scene Loading 2 & Bug Fixes
 46. Saving/Loading
+47. Saving Player Party
 
 ### Upcoming
 
-47. Saving Player Party
 48. Persisting Scene States
 49. Creating Menu
 50. Refactoring Party Screen & Making it Reusable
