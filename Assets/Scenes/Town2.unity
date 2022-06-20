@@ -650,6 +650,7 @@ GameObject:
   - component: {fileID: 863640191}
   - component: {fileID: 863640193}
   - component: {fileID: 863640198}
+  - component: {fileID: 863640199}
   m_Layer: 10
   m_Name: Trainer
   m_TagString: Untagged
@@ -719,11 +720,10 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 7c67c288a45380a4990709d4aa0432bf, type: 3}
   dialog:
     lines:
-    - HEY! YOU'RE NOT PART OF THE TURBO TEAM.
-    - UNTIL YOU'RE PART OF THIS TURBO TEAM, WALK SLOWLY.
+    - I guess it's like a viral video where Bozo dubs over.
   dialogAfterBattle:
     lines:
-    - You really embarassed me in front of Howie.
+    - Yeah... we're in the rockies.
   exclamation: {fileID: 1921317627}
   fov: {fileID: 2056166046}
 --- !u!61 &863640194
@@ -854,9 +854,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pokemon:
   - _base: {fileID: 11400000, guid: a3752db313b01be468706bc0e5293b99, type: 2}
-    level: 4
+    level: 1
   - _base: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
-    level: 3
+    level: 1
+--- !u!114 &863640199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863640190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4881f89f8b930e34489bbb86116ccd4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: b4a24a1b-9b79-4297-b28b-442aa10e344c
 --- !u!1 &1217152738
 GameObject:
   m_ObjectHideFlags: 0
