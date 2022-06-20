@@ -50,10 +50,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 45. Additive Scene Loading 2 & Bug Fixes
 46. Saving/Loading
 47. Saving Player Party
+48. Persisting Scene States
 
 ### Upcoming
 
-48. Persisting Scene States
 49. Creating Menu
 50. Refactoring Party Screen & Making it Reusable
 51. Creating Inventory UI
