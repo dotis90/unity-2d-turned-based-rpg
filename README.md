@@ -53,10 +53,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 48. Persisting Scene States
 49. Creating Menu
 50. Refactoring Party Screen & Making it Reusable
+51. Creating Inventory UI
 
 ### Upcoming
 
-51. Creating Inventory UI
 52. Creating Inventory System
 53. Inventory UI Scrolling
 54. Inventory System 2 - Selecting Pokemon to Use the Item on
