@@ -51,10 +51,10 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 46. Saving/Loading
 47. Saving Player Party
 48. Persisting Scene States
+49. Creating Menu
 
 ### Upcoming
 
-49. Creating Menu
 50. Refactoring Party Screen & Making it Reusable
 51. Creating Inventory UI
 52. Creating Inventory System
