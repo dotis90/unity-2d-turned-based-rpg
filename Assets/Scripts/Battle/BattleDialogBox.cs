@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class BattleDialogBox : MonoBehaviour
 {
     [SerializeField] int lettersPerSecond;
-    [SerializeField] Color highlightedColor;
 
     [SerializeField] Text dialogText;
     [SerializeField] GameObject actionSelector;
@@ -23,10 +22,12 @@ public class BattleDialogBox : MonoBehaviour
     [SerializeField] Text yesText;
     [SerializeField] Text noText;
 
+    Color highlightedColor;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        highlightedColor = GlobalSettings.i.HighlightedColor;
     }
 
     // Update is called once per frame
