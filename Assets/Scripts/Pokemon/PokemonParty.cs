@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -6,6 +7,8 @@ using UnityEngine;
 public class PokemonParty : MonoBehaviour
 {
     [SerializeField] List<Pokemon> pokemon;
+
+    public event Action OnUpdated;
 
     public List<Pokemon> Pokemons
     {
@@ -37,10 +40,16 @@ public class PokemonParty : MonoBehaviour
         if (pokemon.Count < 6)
         {
             pokemon.Add(newPokemon);
+            OnUpdated?.Invoke();
         }
         else
         {
             // TODO: Add to the PC once that's implemented
         }
+    }
+
+    public static PokemonParty GetPlayerParty()
+    {
+        return FindObjectOfType<PlayerController>().GetComponent<PokemonParty>();
     }
 }
