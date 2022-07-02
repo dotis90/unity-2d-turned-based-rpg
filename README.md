@@ -57,34 +57,34 @@ Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://
 52. Creating Inventory System\
 53. Inventory UI Scrolling
 54. Inventory System 2 - Selecting Pokemon to Use the Item on
+55. Using Items & Bug Fixes
 
 ### Upcoming
 
-55. Using Items & Bug Fixes
-56. Using Items in Battle
-57. Implementing all Recovery Items
-58. More Item Types
-59. Fixing Bugs & Explaining How to Debug Issues
-60. Using Pokeball Items from Inventory
-61. TM & HM Items
-62. TM & HM Items 2
-63. Improving Dialogue & Interaction System
-64. Adding Pickups
-65. NPCs Giving Items
-66. Saving Items
-67. Story Items
-68. Quest System
-69. Quest System 2
-70. Enable/Disable Objects based on Quests
-71. Refactoring Scriptable Object Database
-72. Saving Quests
-73. Evolutions
-74. Evolutions UI
-75. Evolution Items
-76. Bug Fixes in Evolution & Level Up
-77. Healing Pokemon
-78. Dialogue Choices
-79. Shops 1
+56. Using Items in Battle (7/3 Sun)
+57. Implementing all Recovery Items (7/4 Mon)
+58. More Item Types (7/5 Tues)
+59. Fixing Bugs & Explaining How to Debug Issues (7/6 Wed)
+60. Using Pokeball Items from Inventory (7/7 Thurs)
+61. TM & HM Items (7/8 Fri)
+62. TM & HM Items 2 (7/9 Sat)
+63. Improving Dialogue & Interaction System (7/10 Sun)
+64. Adding Pickups (7/11 Mon)
+65. NPCs Giving Items (7/12 Tues)
+66. Saving Items (7/13 Wed)
+67. Story Items (7/14 Thurs)
+68. Quest System (7/15 Fri)
+69. Quest System 2 (7/16 Sat)
+70. Enable/Disable Objects based on Quests (7/17 Sun)
+71. Refactoring Scriptable Object Database (7/18 Mon)
+72. Saving Quests (7/19 Tues)
+73. Evolutions (7/20 Wed)
+74. Evolutions UI (7/21 Thurs)
+75. Evolution Items (7/22 Fri)
+76. Bug Fixes in Evolution & Level Up (7/23 Sat)
+77. Healing Pokemon (7/24 Sun)
+78. Dialogue Choices (7/25 Mon)
+79. Shops 1 (7/26 Tues)
 80. Shops 2 - Money
 81. Shops 3 - Sell Multiple Items
 82. Shops 4 - Shop UI
