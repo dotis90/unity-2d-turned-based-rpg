@@ -19,6 +19,7 @@ public class PokemonParty : MonoBehaviour
         set
         {
             pokemon = value;
+            OnUpdated?.Invoke();
         }
     }
     // Start is called before the first frame update
