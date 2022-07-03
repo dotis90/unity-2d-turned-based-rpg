@@ -58,10 +58,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 53. Inventory UI Scrolling
 54. Inventory System 2 - Selecting Pokemon to Use the Item on
 55. Using Items & Bug Fixes
+56. Using Items in Battle
 
 ### Upcoming
 
-56. Using Items in Battle (7/3 Sun)
 57. Implementing all Recovery Items (7/4 Mon)
 58. More Item Types (7/5 Tues)
 59. Fixing Bugs & Explaining How to Debug Issues (7/6 Wed)
