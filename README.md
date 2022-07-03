@@ -1,5 +1,5 @@
-# pokemon-unity
-Pokemon recreated in Unity. Based on the Youtube tutorial series [here](https://www.youtube.com/watch?v=_Pm16a18zy8&list=PLLf84Zj7U26kfPQ00JVI2nIoozuPkykDX). This project exists to be reference material for future projects, not an actual finished game.
+# unity-turned-based-rpg
+A sample project for a turned based RPG game that uses Pokemon as its foundation. Based on the Youtube tutorial series [here](https://www.youtube.com/watch?v=_Pm16a18zy8&list=PLLf84Zj7U26kfPQ00JVI2nIoozuPkykDX). This project exists to be reference material for future projects, not an actual finished game.
 
 ## Features
 
