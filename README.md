@@ -59,10 +59,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 54. Inventory System 2 - Selecting Pokemon to Use the Item on
 55. Using Items & Bug Fixes
 56. Using Items in Battle
+57. Implementing all Recovery Items
 
 ### Upcoming
 
-57. Implementing all Recovery Items (7/4 Mon)
 58. More Item Types (7/5 Tues)
 59. Fixing Bugs & Explaining How to Debug Issues (7/6 Wed)
 60. Using Pokeball Items from Inventory (7/7 Thurs)
@@ -99,3 +99,4 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 91. Cutting Trees
 92. Surfing
 93. Battles From Water
+94. Improving Battles From Water
