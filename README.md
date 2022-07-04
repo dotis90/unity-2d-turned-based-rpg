@@ -85,18 +85,18 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 77. Healing Pokemon (7/24 Sun)
 78. Dialogue Choices (7/25 Mon)
 79. Shops 1 (7/26 Tues)
-80. Shops 2 - Money
-81. Shops 3 - Sell Multiple Items
-82. Shops 4 - Shop UI
-83. Shops 5 - Buying Items
-84. Completing Shop System
-85. Audio System - Adding Music
-86. Adding Sound Effects
-87. Adding Sound Effects 2
-88. Ledge Jumps
-89. Improving Wild Encounters
-90. Customizing MapArea Inspector
-91. Cutting Trees
-92. Surfing
-93. Battles From Water
-94. Improving Battles From Water
+80. Shops 2 - Money (7/27 Wed)
+81. Shops 3 - Sell Multiple Items (7/28 Thurs)
+82. Shops 4 - Shop UI (7/29 Fri)
+83. Shops 5 - Buying Items (8/1 Mon)
+84. Completing Shop System (8/2 Tues)
+85. Audio System - Adding Music (8/3 Wed)
+86. Adding Sound Effects (8/4 Thurs)
+87. Adding Sound Effects 2 (8/5 Fri)
+88. Ledge Jumps (8/6 Sat)
+89. Improving Wild Encounters (8/7 Sun)
+90. Customizing MapArea Inspector (8/8 Mon)
+91. Cutting Trees (8/9 Tues)
+92. Surfing (8/10 Wed)
+93. Battles From Water (8/11 Thurs)
+94. Improving Battles From Water (8/12 Fri)
