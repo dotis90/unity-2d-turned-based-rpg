@@ -208,7 +208,7 @@ public class Pokemon
         Moves.Add(new Move(moveToLearn));
     }
 
-    public bool hasMove(MoveBase moveToCheck)
+    public bool HasMove(MoveBase moveToCheck)
     {
         return Moves.Count(m => m.Base == moveToCheck) > 0;
     }

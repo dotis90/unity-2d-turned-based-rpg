@@ -34,3 +34,6 @@ MonoBehaviour:
     level: 4
   - moveBase: {fileID: 11400000, guid: 64b880426be127b45abb3c9ba5395bfd, type: 2}
     level: 7
+  learnableByItems:
+  - {fileID: 11400000, guid: c215fcf5881e97b44bb3e9a48ba3b676, type: 2}
+  - {fileID: 11400000, guid: 64b880426be127b45abb3c9ba5395bfd, type: 2}
