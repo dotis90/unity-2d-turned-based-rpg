@@ -63,10 +63,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 58. More Item Types
 59. Fixing Bugs & Explaining How to Debug Issues
 60. Using Pokeball Items from Inventory
+61. TM & HM Items
 
 ### Upcoming
 
-61. TM & HM Items
 62. TM & HM Items 2
 63. Improving Dialogue & Interaction System
 64. Adding Pickups
