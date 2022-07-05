@@ -60,43 +60,43 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 55. Using Items & Bug Fixes
 56. Using Items in Battle
 57. Implementing all Recovery Items
+58. More Item Types
 
 ### Upcoming
 
-58. More Item Types (7/5 Tues)
-59. Fixing Bugs & Explaining How to Debug Issues (7/6 Wed)
-60. Using Pokeball Items from Inventory (7/7 Thurs)
-61. TM & HM Items (7/8 Fri)
-62. TM & HM Items 2 (7/9 Sat)
-63. Improving Dialogue & Interaction System (7/10 Sun)
-64. Adding Pickups (7/11 Mon)
-65. NPCs Giving Items (7/12 Tues)
-66. Saving Items (7/13 Wed)
-67. Story Items (7/14 Thurs)
-68. Quest System (7/15 Fri)
-69. Quest System 2 (7/16 Sat)
-70. Enable/Disable Objects based on Quests (7/17 Sun)
-71. Refactoring Scriptable Object Database (7/18 Mon)
-72. Saving Quests (7/19 Tues)
-73. Evolutions (7/20 Wed)
-74. Evolutions UI (7/21 Thurs)
-75. Evolution Items (7/22 Fri)
-76. Bug Fixes in Evolution & Level Up (7/23 Sat)
-77. Healing Pokemon (7/24 Sun)
-78. Dialogue Choices (7/25 Mon)
-79. Shops 1 (7/26 Tues)
-80. Shops 2 - Money (7/27 Wed)
-81. Shops 3 - Sell Multiple Items (7/28 Thurs)
-82. Shops 4 - Shop UI (7/29 Fri)
-83. Shops 5 - Buying Items (8/1 Mon)
-84. Completing Shop System (8/2 Tues)
-85. Audio System - Adding Music (8/3 Wed)
-86. Adding Sound Effects (8/4 Thurs)
-87. Adding Sound Effects 2 (8/5 Fri)
-88. Ledge Jumps (8/6 Sat)
-89. Improving Wild Encounters (8/7 Sun)
-90. Customizing MapArea Inspector (8/8 Mon)
-91. Cutting Trees (8/9 Tues)
-92. Surfing (8/10 Wed)
-93. Battles From Water (8/11 Thurs)
-94. Improving Battles From Water (8/12 Fri)
+59. Fixing Bugs & Explaining How to Debug Issues
+60. Using Pokeball Items from Inventory
+61. TM & HM Items
+62. TM & HM Items 2
+63. Improving Dialogue & Interaction System
+64. Adding Pickups
+65. NPCs Giving Items
+66. Saving Items
+67. Story Items
+68. Quest System
+69. Quest System 2
+70. Enable/Disable Objects based on Quests
+71. Refactoring Scriptable Object Database
+72. Saving Quests
+73. Evolutions
+74. Evolutions UI
+75. Evolution Items
+76. Bug Fixes in Evolution & Level Up
+77. Healing Pokemon
+78. Dialogue Choices
+79. Shops 1
+80. Shops 2 - Money
+81. Shops 3 - Sell Multiple Items
+82. Shops 4 - Shop UI
+83. Shops 5 - Buying Items
+84. Completing Shop System
+85. Audio System - Adding Music
+86. Adding Sound Effects
+87. Adding Sound Effects 2
+88. Ledge Jumps
+89. Improving Wild Encounters
+90. Customizing MapArea Inspector
+91. Cutting Trees
+92. Surfing
+93. Battles From Water
+94. Improving Battles From Water
