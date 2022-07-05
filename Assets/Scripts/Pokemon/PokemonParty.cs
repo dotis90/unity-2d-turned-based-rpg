@@ -22,13 +22,19 @@ public class PokemonParty : MonoBehaviour
             OnUpdated?.Invoke();
         }
     }
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
         foreach (var p in pokemon)
         {
             p.Init();
         }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
     }
 
     public Pokemon GetHealthyPokemon()
