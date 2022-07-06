@@ -5740,8 +5740,7 @@ PrefabInstance:
         type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: 2d4aebf94fcb19a4a97517620cf066d4,
-        type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: dialog.lines.Array.data[0]
@@ -5755,13 +5754,19 @@ PrefabInstance:
     - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: count
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: questToStart
+      value: 
+      objectReference: {fileID: 11400000, guid: baedbf70abb04c44db26f13d60f5ac13,
+        type: 2}
     - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5831,6 +5836,12 @@ PrefabInstance:
       propertyPath: uniqueId
       value: 1a39766d-0644-4b18-bfec-c079a3c87d32
       objectReference: {fileID: 0}
+    - target: {fileID: 8676365816474708232, guid: 24885ac1716c1af47b0fc23e1fd31735,
+        type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 776276e4697c5e84f8a99b627eb50409,
+        type: 2}
     - target: {fileID: 8676365816474708233, guid: 24885ac1716c1af47b0fc23e1fd31735,
         type: 3}
       propertyPath: m_LocalPosition.x

@@ -330,27 +330,9 @@ MonoBehaviour:
     count: 6
   - item: {fileID: 11400000, guid: 729ac93553a8ee5419f206e6b59689a7, type: 2}
     count: 2
-  - item: {fileID: 11400000, guid: 776276e4697c5e84f8a99b627eb50409, type: 2}
+  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
     count: 1
   - item: {fileID: 11400000, guid: b4e32f2eef15a684e81f8d62d5fbd031, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
-    count: 10
-  - item: {fileID: 11400000, guid: bde529ef517c36b4a9a4c94488363aba, type: 2}
     count: 10
   pokeballSlots:
   - item: {fileID: 11400000, guid: 2d4aebf94fcb19a4a97517620cf066d4, type: 2}
@@ -361,6 +343,4 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: 8a2fc6f50d958104fa61a3bbb0c3c462, type: 2}
     count: 1
   - item: {fileID: 11400000, guid: 19d6acb22da3e9242af004f5e3bc5bf4, type: 2}
-    count: 1
-  - item: {fileID: 11400000, guid: 6fa07f2a52dac364fae8522be50aa0f0, type: 2}
     count: 1
