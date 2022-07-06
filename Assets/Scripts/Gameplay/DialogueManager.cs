@@ -21,12 +21,6 @@ public class DialogueManager : MonoBehaviour
         Instance = this;
     }
 
-    Dialogue dialog;
-    Action onDialogFinished;
-
-    int currentLine = 0;
-    bool isTyping;
-
     public bool IsShowing { get; private set; }
 
     public IEnumerator ShowDialogText(string text, bool waitForInput=true, bool autoClose=true)
@@ -53,51 +47,37 @@ public class DialogueManager : MonoBehaviour
         IsShowing = false;
     }
 
-    public IEnumerator ShowDialog(Dialogue dialogue, Action onFinished = null)
+    public IEnumerator ShowDialog(Dialogue dialog)
     {
         yield return new WaitForEndOfFrame();
 
         onShowDialog?.Invoke();
-
         IsShowing = true;
-        this.dialog = dialogue;
-        onDialogFinished = onFinished;
-
         dialogueBox.SetActive(true);
-        StartCoroutine(TypeDialog(dialog.Lines[0]));
+
+        foreach (var line in dialog.Lines)
+        {
+            yield return TypeDialog(line);
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
+        }
+
+        dialogueBox.SetActive(false);
+        IsShowing = false;
+        onCloseDialog?.Invoke();
     }
 
     public void HandleUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && !isTyping)
-        {
-            ++currentLine;
-            if (currentLine < dialog.Lines.Count)
-            {
-                StartCoroutine(TypeDialog(dialog.Lines[currentLine]));
-            }
-            else
-            {
-                currentLine = 0;
-                IsShowing = false;
-                dialogueBox.SetActive(false);
-                onDialogFinished?.Invoke();
-                onCloseDialog?.Invoke();
-            }
-        }
+        
     }
 
     public IEnumerator TypeDialog(string line)
     {
-        isTyping = true;
-
         dialogueText.text = "";
         foreach (var letter in line.ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(1f / lettersPerSecond);
         }
-
-        isTyping = false;
     }
 }

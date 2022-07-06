@@ -216,7 +216,7 @@ public class InventoryUI : MonoBehaviour
         }
         else
         {
-            if (usedItem is RecoveryItem)
+            if (selectedCategory == (int)ItemCategory.Items)
             {
                 yield return DialogueManager.Instance.ShowDialogText($"It has no effect.");
             }           
