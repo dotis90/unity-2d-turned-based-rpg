@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] int lettersPerSecond;
 
     public event Action onShowDialog;
-    public event Action onCloseDialog;
+    public event Action OnDialogFinished;
 
     public static DialogueManager Instance { get; private set; }
 
@@ -30,7 +30,6 @@ public class DialogueManager : MonoBehaviour
         dialogueBox.SetActive(true);
 
         yield return TypeDialog(text);
-
         if (waitForInput)
         {
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
@@ -40,13 +39,14 @@ public class DialogueManager : MonoBehaviour
         {
             CloseDialog();
         }
+
+        OnDialogFinished?.Invoke();
     }
 
     public void CloseDialog()
     {
         dialogueBox.SetActive(false);
-        IsShowing = false;
-        onCloseDialog?.Invoke();
+        IsShowing = false;       
     }
 
     public IEnumerator ShowDialog(Dialogue dialog)
@@ -65,7 +65,7 @@ public class DialogueManager : MonoBehaviour
 
         dialogueBox.SetActive(false);
         IsShowing = false;
-        onCloseDialog?.Invoke();
+        OnDialogFinished?.Invoke();
     }
 
     public void HandleUpdate()

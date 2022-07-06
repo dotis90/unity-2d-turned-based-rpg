@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a24d82c1e3b4da4d88dc8ab84ae18e5, type: 3}
   m_Name: MaxEther
   m_EditorClassIdentifier: 
-  _name: Ether
+  _name: ' Max Ether'
   description: Recover all PP to a Pokemon.
   icon: {fileID: 2179193746420657447, guid: 85cd769640155a049ad64168efcf04ad, type: 3}
   hpAmount: 0
