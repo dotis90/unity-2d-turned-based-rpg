@@ -5776,6 +5776,32 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: item
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d4aebf94fcb19a4a97517620cf066d4,
+        type: 2}
+    - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.data[0]
+      value: I bought some Pokeballs yesterday.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.data[1]
+      value: You can have some, I guess.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584263952339061521, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: count
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: m_Name
