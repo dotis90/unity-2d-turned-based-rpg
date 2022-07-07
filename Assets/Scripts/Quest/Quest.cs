@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Quest
 {
     public QuestBase Base { get; private set; }
@@ -17,6 +18,9 @@ public class Quest
         Status = QuestStatus.Started;
 
         yield return DialogueManager.Instance.ShowDialog(Base.StartDialogue);
+
+        var questList = QuestList.GetQuestList();
+        questList.AddQuest(this);
     }
 
     public IEnumerator CompleteQuest(Transform player)
@@ -38,6 +42,9 @@ public class Quest
             string playerName = player.GetComponent<PlayerController>().Name;
             yield return DialogueManager.Instance.ShowDialogText($"{ playerName } received { Base.RewardItem.Name }.");
         }
+
+        var questList = QuestList.GetQuestList();
+        questList.AddQuest(this);
     }
 
     public bool CanBeCompleted()
