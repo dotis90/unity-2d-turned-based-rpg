@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad178a72b5e13c43b5498603227ed2d, type: 3}
   m_Name: FaintedPokemon
   m_EditorClassIdentifier: 
-  _name: Fainted Pokemon
+  _name: FaintedPokemon
   description: 
   startDialogue:
     lines:
