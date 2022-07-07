@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PokemonParty : MonoBehaviour
 {
-    [SerializeField] List<Pokemon> pokemon;
+    [SerializeField] List<Pokemon> pokemons;
 
     public event Action OnUpdated;
 
@@ -14,18 +14,18 @@ public class PokemonParty : MonoBehaviour
     {
         get
         {
-            return pokemon;
+            return pokemons;
         }
         set
         {
-            pokemon = value;
+            pokemons = value;
             OnUpdated?.Invoke();
         }
     }
 
     private void Awake()
     {
-        foreach (var p in pokemon)
+        foreach (var p in pokemons)
         {
             p.Init();
         }
@@ -39,20 +39,35 @@ public class PokemonParty : MonoBehaviour
 
     public Pokemon GetHealthyPokemon()
     {
-        return pokemon.Where(x => x.HP > 0).FirstOrDefault();
+        return pokemons.Where(x => x.HP > 0).FirstOrDefault();
     }
 
     public void AddPokemon(Pokemon newPokemon)
     {
-        if (pokemon.Count < 6)
+        if (pokemons.Count < 6)
         {
-            pokemon.Add(newPokemon);
+            pokemons.Add(newPokemon);
             OnUpdated?.Invoke();
         }
         else
         {
             // TODO: Add to the PC once that's implemented
         }
+    }
+
+    public IEnumerator CheckForEvolutions()
+    {
+        foreach (var pokemon in pokemons)
+        {
+            var evolution = pokemon.CheckForEvolution();
+            if (evolution != null)
+            {
+                yield return DialogueManager.Instance.ShowDialogText($"{ pokemon.Base.Name } evolved into { evolution.EvolvesInto.Name }");
+                pokemon.Evolve(evolution);
+            }
+        }
+
+        OnUpdated?.Invoke();
     }
 
     public static PokemonParty GetPlayerParty()

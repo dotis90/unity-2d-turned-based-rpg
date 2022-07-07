@@ -1704,6 +1704,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: EssentialObjects
       objectReference: {fileID: 0}
+    - target: {fileID: 8399398308263805604, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: pokemons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8399398308263805604, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: pokemons.Array.data[0]._base
+      value: 
+      objectReference: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207,
+        type: 2}
+    - target: {fileID: 8399398308263805604, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: pokemons.Array.data[1]._base
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9d8f756e32a234890673cb82620ca0,
+        type: 2}
+    - target: {fileID: 8399398308263805604, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: pokemons.Array.data[0].level
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8399398308263805604, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: pokemons.Array.data[1].level
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8671003649945960863, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
       propertyPath: m_AnchorMin.y

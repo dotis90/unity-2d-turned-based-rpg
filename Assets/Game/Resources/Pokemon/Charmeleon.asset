@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef4ae481d0585634584aa0f040a97b6e, type: 3}
-  m_Name: Charmander
+  m_Name: Charmeleon
   m_EditorClassIdentifier: 
-  _name: Charmander
+  _name: Charmeleon
   description: 
-  frontSprite: {fileID: 21300000, guid: cd259d9d4f8ba2749a16d1cc64d46bec, type: 3}
-  backSprite: {fileID: 21300000, guid: ed8e1d9976a1fd94d961840d8f6e7764, type: 3}
+  frontSprite: {fileID: 21300000, guid: 7b639ec515c410e4ebf517fc3899e3bd, type: 3}
+  backSprite: {fileID: 21300000, guid: ade6afd9cbd5c1740bf6046d9a18b97d, type: 3}
   type1: 2
   type2: 0
-  maxHp: 39
-  attack: 52
-  defense: 43
-  spAttack: 60
-  spDefense: 50
-  speed: 65
-  expYield: 2075
+  maxHp: 60
+  attack: 60
+  defense: 60
+  spAttack: 78
+  spDefense: 70
+  speed: 70
+  expYield: 800
   growthRate: 0
   catchRate: 255
   learnableMoves:
@@ -37,6 +37,4 @@ MonoBehaviour:
   learnableByItems:
   - {fileID: 11400000, guid: c215fcf5881e97b44bb3e9a48ba3b676, type: 2}
   - {fileID: 11400000, guid: 64b880426be127b45abb3c9ba5395bfd, type: 2}
-  evolutions:
-  - evolvesInto: {fileID: 11400000, guid: 6f50365ca6ff5774da3d1f706b947dd5, type: 2}
-    requiredLevel: 16
+  evolutions: []
