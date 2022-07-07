@@ -75,10 +75,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 70. Enable/Disable Objects based on Quests
 71. Refactoring Scriptable Object Database
 72. Saving Quests
+73. Evolutions
 
 ### Upcoming
 
-73. Evolutions
 74. Evolutions UI
 75. Evolution Items
 76. Bug Fixes in Evolution & Level Up
