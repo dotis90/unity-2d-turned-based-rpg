@@ -78,10 +78,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 73. Evolutions
 74. Evolutions UI
 75. Evolution Items
+76. Bug Fixes in Evolution & Level Up
 
 ### Upcoming
 
-76. Bug Fixes in Evolution & Level Up
 77. Healing Pokemon
 78. Dialogue Choices
 79. Shops 1
