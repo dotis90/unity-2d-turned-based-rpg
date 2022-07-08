@@ -614,6 +614,17 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3251021312674742439, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: slots.Array.data[4].item
+      value: 
+      objectReference: {fileID: 11400000, guid: 7ba8ef1fd8c56bb43bf8eef08d3b6a9f,
+        type: 2}
+    - target: {fileID: 3251021312674742439, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: slots.Array.data[4].count
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3606676068533103955, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
       propertyPath: m_AnchorMin.y

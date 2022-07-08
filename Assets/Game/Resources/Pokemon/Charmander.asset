@@ -40,3 +40,4 @@ MonoBehaviour:
   evolutions:
   - evolvesInto: {fileID: 11400000, guid: 6f50365ca6ff5774da3d1f706b947dd5, type: 2}
     requiredLevel: 16
+    requiredItem: {fileID: 11400000, guid: 7ba8ef1fd8c56bb43bf8eef08d3b6a9f, type: 2}
