@@ -1060,6 +1060,113 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &606477466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5592737544116813190, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: uniqueId
+      value: 38014b06-0436-44b0-b941-a0555482cd9e
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_Name
+      value: Healer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.data[0]
+      value: Your Pokemon look tired! Take some rest.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b534529ed4fc80f4d944a78f392e474f, type: 3}
+--- !u!1 &606477467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+    type: 3}
+  m_PrefabInstance: {fileID: 606477466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &606477468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606477467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a18a319c3f701a4a8c6aa2d435d060e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1580795975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1822,7 +1929,12 @@ PrefabInstance:
     - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Professor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
@@ -1840,6 +1952,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 23e929cf61f729c4bb96b398b1025e4a,
         type: 2}
+    - target: {fileID: 7555392609333329710, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
         type: 3}
       propertyPath: m_LocalPosition.x
