@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] GameObject dialogueBox;
+    [SerializeField] ChoiceBox choiceBox;
     [SerializeField] Text dialogueText;
     [SerializeField] int lettersPerSecond;
 
@@ -49,7 +50,7 @@ public class DialogueManager : MonoBehaviour
         IsShowing = false;       
     }
 
-    public IEnumerator ShowDialog(Dialogue dialog)
+    public IEnumerator ShowDialog(Dialogue dialog, List<string> choices=null, Action<int> onChoiceSelected=null)
     {
         yield return new WaitForEndOfFrame();
 
@@ -61,6 +62,11 @@ public class DialogueManager : MonoBehaviour
         {
             yield return TypeDialog(line);
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Z));
+        }
+
+        if (choices != null && choices.Count > 1)
+        {
+            yield return choiceBox.ShowChoices(choices, onChoiceSelected);
         }
 
         dialogueBox.SetActive(false);
