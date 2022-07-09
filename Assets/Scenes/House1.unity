@@ -1167,6 +1167,113 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a18a319c3f701a4a8c6aa2d435d060e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1521084977
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5592737544116813190, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: uniqueId
+      value: 5a3f6ec8-25b6-4571-b70e-24b3f90bf97b
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_Name
+      value: Merchant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: dialog.lines.Array.data[0]
+      value: Welcome. I've got some good things on sale stranger.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329708, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: questToComplete
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555392609333329711, guid: b534529ed4fc80f4d944a78f392e474f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b534529ed4fc80f4d944a78f392e474f, type: 3}
+--- !u!1 &1521084978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1521084977}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1521084979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521084978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2042b5cba8e1b7a4ab61071a271fd958, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1580795975
 PrefabInstance:
   m_ObjectHideFlags: 0

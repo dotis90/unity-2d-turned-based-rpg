@@ -15,6 +15,8 @@ MonoBehaviour:
   _name: Super Potion
   description: Recover 50 HP to a single Pokemon.
   icon: {fileID: -6090256331845058582, guid: 85cd769640155a049ad64168efcf04ad, type: 3}
+  price: 100
+  isSellable: 1
   hpAmount: 50
   restoreMaxHP: 0
   ppAmount: 0
