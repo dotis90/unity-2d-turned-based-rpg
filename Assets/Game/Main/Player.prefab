@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 5463391323029716692}
   - component: {fileID: 3994247304631152374}
   - component: {fileID: 6396887490693279000}
+  - component: {fileID: 5007561694942397456}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -201,11 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dc7972a0fe49a4fba73302008374d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemon:
-  - _base: {fileID: 11400000, guid: 5f9d8f756e32a234890673cb82620ca0, type: 2}
-    level: 10
-  - _base: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
-    level: 10
+  pokemons: []
 --- !u!114 &7990283114150554870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,3 +354,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a1846ada6e83714893687794e78b8ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5007561694942397456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7990283114150554874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d908f8dc5ac2774d89fe99f24cb2964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 1000
