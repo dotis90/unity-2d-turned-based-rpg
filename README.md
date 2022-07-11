@@ -84,10 +84,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 79. Shops 1
 80. Shops 2 - Money
 81. Shops 3 - Sell Multiple Items
+82. Shops 4 - Shop UI
 
 ### Upcoming
 
-82. Shops 4 - Shop UI
 83. Shops 5 - Buying Items
 84. Completing Shop System
 85. Audio System - Adding Music
