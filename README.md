@@ -89,10 +89,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 84. Completing Shop System
 85. Audio System - Adding Music
 86. Adding Sound Effects
+87. Adding Sound Effects 2
 
 ### Upcoming
 
-87. Adding Sound Effects 2
 88. Ledge Jumps
 89. Improving Wild Encounters
 90. Customizing MapArea Inspector
