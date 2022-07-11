@@ -2838,7 +2838,7 @@ PrefabInstance:
     - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
       propertyPath: sfxList.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
@@ -2855,6 +2855,26 @@ PrefabInstance:
       propertyPath: sfxList.Array.data[1].id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[2].id
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8f6a6c214e8fa347a1d09a4395e3cde, type: 3}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[3].id
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8f6a6c214e8fa347a1d09a4395e3cde, type: 3}
     - target: {fileID: 7928419857790465723, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
       propertyPath: m_AnchorMin.y
