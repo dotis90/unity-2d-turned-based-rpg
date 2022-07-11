@@ -2796,6 +2796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72bf6cb80e2eb464ca8e22f586469719, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shopCameraOffset: {x: 3.5, y: 0}
   inventoryUI: {fileID: 3936126139854197427}
   shopUI: {fileID: 3137544580915226677}
   walletUI: {fileID: 6753012834410872794}
