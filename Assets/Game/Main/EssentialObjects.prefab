@@ -172,6 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45fb21f4d14f94e48b447092e7797216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sfxList:
+  - id: 0
+    clip: {fileID: 8300000, guid: d8a02cb4b7890d844b3a9a358e37b2d6, type: 3}
   musicPlayer: {fileID: 8363163789209110657}
   sfxPlayer: {fileID: 7620380950896974860}
   fadeDuration: 0.75

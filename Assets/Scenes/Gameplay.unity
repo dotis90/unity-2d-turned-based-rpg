@@ -2835,6 +2835,26 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d8a02cb4b7890d844b3a9a358e37b2d6, type: 3}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d8a02cb4b7890d844b3a9a358e37b2d6, type: 3}
+    - target: {fileID: 7927658565111832883, guid: 99c5da68f3a547246972b1a759564f87,
+        type: 3}
+      propertyPath: sfxList.Array.data[1].id
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7928419857790465723, guid: 99c5da68f3a547246972b1a759564f87,
         type: 3}
       propertyPath: m_AnchorMin.y
