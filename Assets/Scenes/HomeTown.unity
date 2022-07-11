@@ -5811,6 +5811,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MeetProfessorQuestObject
       objectReference: {fileID: 0}
+    - target: {fileID: 425508121917234424, guid: 960ff40ab6a0936479e7643ef10f0e66,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 425508121917234430, guid: 960ff40ab6a0936479e7643ef10f0e66,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6157,6 +6162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
         type: 3}
+      propertyPath: pokemons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
+        type: 3}
       propertyPath: pokemon.Array.data[0].level
       value: 1
       objectReference: {fileID: 0}
@@ -6164,6 +6174,28 @@ PrefabInstance:
         type: 3}
       propertyPath: pokemon.Array.data[1].level
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
+        type: 3}
+      propertyPath: pokemons.Array.data[0]._base
+      value: 
+      objectReference: {fileID: 11400000, guid: a3752db313b01be468706bc0e5293b99,
+        type: 2}
+    - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
+        type: 3}
+      propertyPath: pokemons.Array.data[0].level
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
+        type: 3}
+      propertyPath: pokemons.Array.data[1]._base
+      value: 
+      objectReference: {fileID: 11400000, guid: a3752db313b01be468706bc0e5293b99,
+        type: 2}
+    - target: {fileID: 9025575218605491916, guid: ba385f06c8629d04e91066377ae7f983,
+        type: 3}
+      propertyPath: pokemons.Array.data[1].level
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9025575218605491919, guid: ba385f06c8629d04e91066377ae7f983,
         type: 3}

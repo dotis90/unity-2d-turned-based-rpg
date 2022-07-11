@@ -359,6 +359,7 @@ MonoBehaviour:
     - You really embarassed me in front of Howie.
   exclamation: {fileID: 9025575217546815153}
   fov: {fileID: 9025575217412966100}
+  trainerAppearsClip: {fileID: 8300000, guid: 76e897e19e2a27444b85433bd96081cf, type: 3}
 --- !u!114 &9025575218605491916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,11 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dc7972a0fe49a4fba73302008374d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemon:
-  - _base: {fileID: 11400000, guid: a3752db313b01be468706bc0e5293b99, type: 2}
-    level: 4
-  - _base: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
-    level: 3
+  pokemons: []
 --- !u!114 &7732908199785341938
 MonoBehaviour:
   m_ObjectHideFlags: 0
