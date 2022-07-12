@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wildPokemons: []
+  totalChance: 0
 --- !u!114 &856732892 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1776912237426397038, guid: 98793a056e785874a8df2452a7c24ba1,
@@ -3423,6 +3424,7 @@ MonoBehaviour:
   - pokemon: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
     levelRange: {x: 3, y: 5}
     chancePercentage: 90
+  totalChance: 100
 --- !u!1001 &1531428507
 PrefabInstance:
   m_ObjectHideFlags: 0
