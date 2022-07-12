@@ -92,10 +92,10 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 87. Adding Sound Effects 2
 88. Ledge Jumps
 89. Improving Wild Encounters
+90. Customizing MapArea Inspector
 
 ### Upcoming
 
-90. Customizing MapArea Inspector
 91. Cutting Trees
 92. Surfing
 93. Battles From Water
