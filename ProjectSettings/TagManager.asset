@@ -47,7 +47,7 @@ TagManager:
   - name: Foreground
     uniqueID: 2858404693
     locked: 0
-  - name: Player
+  - name: Objects
     uniqueID: 3087040079
     locked: 0
   - name: Battle
