@@ -2935,6 +2935,9 @@ MonoBehaviour:
   ledgeLayer:
     serializedVersion: 2
     m_Bits: 32768
+  waterLayer:
+    serializedVersion: 2
+    m_Bits: 16
 --- !u!114 &2222049976480263667
 MonoBehaviour:
   m_ObjectHideFlags: 0

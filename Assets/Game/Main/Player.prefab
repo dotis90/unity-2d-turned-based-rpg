@@ -202,7 +202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79dc7972a0fe49a4fba73302008374d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemons: []
+  pokemons:
+  - _base: {fileID: 11400000, guid: 75bf99862d079a645813620feb35cc05, type: 2}
+    level: 6
+  - _base: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
+    level: 5
 --- !u!114 &7990283114150554870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,6 +239,11 @@ MonoBehaviour:
   - {fileID: 2690600881683387669, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
   - {fileID: 6634202828824015816, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
   - {fileID: -5008138227279614530, guid: 3111f23cd57d2be48b2ee6bac4a23588, type: 3}
+  surfSprites:
+  - {fileID: -4465137455631916842, guid: 21c31c734d55dfc49a16e1e7f32b2ff7, type: 3}
+  - {fileID: 548946438817077065, guid: 21c31c734d55dfc49a16e1e7f32b2ff7, type: 3}
+  - {fileID: 4472088847651303106, guid: 21c31c734d55dfc49a16e1e7f32b2ff7, type: 3}
+  - {fileID: 6356773947664160301, guid: 21c31c734d55dfc49a16e1e7f32b2ff7, type: 3}
   defaultDirection: 1
 --- !u!114 &7990283114150554868
 MonoBehaviour:
