@@ -95,9 +95,9 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 90. Customizing MapArea Inspector
 91. Cutting Trees
 92. Surfing
+93. Battles From Water
 
 ### Upcoming
 
-93. Battles From Water
 94. Improving Battles From Water
 95. Cutscene Builder
