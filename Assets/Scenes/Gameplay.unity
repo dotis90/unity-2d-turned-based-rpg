@@ -151,10 +151,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90654955b4dcdb04cb0ff81a958a5dcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wildPokemons: []
+  wildPokemons:
+  - pokemon: {fileID: 11400000, guid: bd9d6893c8c81d4429c57fef5a509207, type: 2}
+    levelRange: {x: 3, y: 10}
+    chancePercentage: 100
   wildPokemonsInWater: []
-  totalChance: 0
-  totalChanceWater: 0
+  totalChance: 100
+  totalChanceWater: -1
 --- !u!114 &856732892 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1776912237426397038, guid: 98793a056e785874a8df2452a7c24ba1,

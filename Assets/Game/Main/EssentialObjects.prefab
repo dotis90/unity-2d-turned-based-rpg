@@ -1470,6 +1470,11 @@ MonoBehaviour:
   wildBattleMusic: {fileID: 8300000, guid: 6d7bea91ce0c476468d244f961e4a805, type: 3}
   trainerBattleMusic: {fileID: 8300000, guid: 4e1b1e2919f64a44b8d0b09d832eb553, type: 3}
   battleVictoryMusic: {fileID: 8300000, guid: 8115d6e9dd760894a906544e76acb36b, type: 3}
+  backgroundImage: {fileID: 8399398306881133329}
+  grassBackground: {fileID: 4422032505096542742, guid: 5e92e4381a92d5649bd2246f7decdb7b,
+    type: 3}
+  waterBackground: {fileID: 1106511937541109406, guid: 5e92e4381a92d5649bd2246f7decdb7b,
+    type: 3}
 --- !u!1 &8399398307242552100
 GameObject:
   m_ObjectHideFlags: 0

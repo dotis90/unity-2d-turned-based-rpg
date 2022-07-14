@@ -52,6 +52,11 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] AudioClip trainerBattleMusic;
     [SerializeField] AudioClip battleVictoryMusic;
 
+    [Header("Background Images")]
+    [SerializeField] Image backgroundImage;
+    [SerializeField] Sprite grassBackground;
+    [SerializeField] Sprite waterBackground;
+
     public event Action<bool> OnBattleOver;
 
     BattleState state;
@@ -71,8 +76,10 @@ public class BattleSystem : MonoBehaviour
     int escapeAttempts;
     MoveBase moveToLearn;
 
+    BattleTrigger battleTrigger;
+
     // Start is called before the first frame update
-    public void StartBattle(PokemonParty playerParty, Pokemon wildPokemon)
+    public void StartBattle(PokemonParty playerParty, Pokemon wildPokemon, BattleTrigger trigger=BattleTrigger.LongGrass)
     {
         isTrainerBattle = false;
         this.playerParty = playerParty;
@@ -80,12 +87,14 @@ public class BattleSystem : MonoBehaviour
         player = playerParty.GetComponent<PlayerController>();
         isTrainerBattle = false;
 
+        battleTrigger = trigger;
+
         AudioManager.i.PlayMusic(wildBattleMusic);
 
         StartCoroutine(SetupBattle());
     }
 
-    public void StartTrainerBattle(PokemonParty playerParty, PokemonParty trainerParty)
+    public void StartTrainerBattle(PokemonParty playerParty, PokemonParty trainerParty, BattleTrigger trigger = BattleTrigger.LongGrass)
     {
         this.playerParty = playerParty;
         this.trainerParty = trainerParty;
@@ -93,6 +102,8 @@ public class BattleSystem : MonoBehaviour
         isTrainerBattle = true;
         player = playerParty.GetComponent<PlayerController>();
         trainer = trainerParty.GetComponent<TrainerController>();
+
+        battleTrigger = trigger;
 
         AudioManager.i.PlayMusic(trainerBattleMusic);
 
@@ -163,6 +174,8 @@ public class BattleSystem : MonoBehaviour
     {
         playerUnit.Clear();
         enemyUnit.Clear();
+
+        backgroundImage.sprite = (battleTrigger == BattleTrigger.LongGrass) ? grassBackground : waterBackground;
 
         if(!isTrainerBattle)
         {
