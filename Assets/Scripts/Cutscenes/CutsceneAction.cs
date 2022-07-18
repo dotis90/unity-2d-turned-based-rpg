@@ -7,6 +7,11 @@ public class CutsceneAction
 {
     [SerializeField] string _name;
 
+    public virtual IEnumerator Play()
+    {
+        yield break;
+    }
+
     public string Name
     {
         get => _name;

@@ -6,5 +6,13 @@ using UnityEngine;
 public class MoveActorAction : CutsceneAction
 {
     [SerializeField] Character character;
-    [SerializeField] List<Vector2> movePattern;
+    [SerializeField] List<Vector2> movePatterns;
+
+    public override IEnumerator Play()
+    {
+        foreach (var moveVec in movePatterns)
+        {
+            yield return character.Move(moveVec);
+        }
+    }
 }

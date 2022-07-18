@@ -7,4 +7,9 @@ public class DialogueAction : CutsceneAction
 {
     [SerializeField] Dialogue dialog;
 
+    public override IEnumerator Play()
+    {
+        yield return DialogueManager.Instance.ShowDialog(dialog);
+    }
+
 }
