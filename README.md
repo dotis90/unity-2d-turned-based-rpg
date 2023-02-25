@@ -99,3 +99,4 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 94. Improving Battles From Water
 95. Cutscene Builder
 96. Cutscenes 2 - Implementing Cutscene Actions
+97. Cutscenes 3 - Parallel Actions
