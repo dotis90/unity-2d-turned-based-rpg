@@ -288,20 +288,49 @@ MonoBehaviour:
   actions:
   - rid: 4244832188517056512
   - rid: 4244832188517056513
+  - rid: 3512172776878243841
+  - rid: 3512172776878243842
   references:
     version: 2
     RefIds:
+    - rid: 3512172776878243841
+      type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: MoveActorAction
+        waitForCompletion: 0
+        actor:
+          isPlayer: 0
+          character: {fileID: 1073630008}
+        movePatterns:
+        - {x: 0, y: -8}
+        - {x: -2, y: 0}
+    - rid: 3512172776878243842
+      type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: MoveActorAction
+        waitForCompletion: 1
+        actor:
+          isPlayer: 1
+          character: {fileID: 0}
+        movePatterns:
+        - {x: 1, y: 0}
+        - {x: 0, y: -8}
+        - {x: -1, y: 0}
     - rid: 4244832188517056512
       type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
       data:
         _name: MoveActorAction
-        character: {fileID: 1073630008}
+        waitForCompletion: 1
+        actor:
+          isPlayer: 0
+          character: {fileID: 1073630008}
         movePatterns:
         - {x: -3, y: 0}
     - rid: 4244832188517056513
       type: {class: DialogueAction, ns: , asm: Assembly-CSharp}
       data:
         _name: DialogueAction
+        waitForCompletion: 1
         dialog:
           lines:
           - This is a cutscene. Just wanna say hi.
