@@ -287,9 +287,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - rid: 4244832188517056512
+  - rid: 3512172802854092800
   - rid: 4244832188517056513
   - rid: 3512172776878243841
   - rid: 3512172776878243842
+  - rid: 3512172802854092802
+  - rid: 3512172802854092803
+  - rid: 3512172802854092805
+  - rid: 3512172802854092804
   references:
     version: 2
     RefIds:
@@ -316,6 +321,49 @@ MonoBehaviour:
         - {x: 1, y: 0}
         - {x: 0, y: -8}
         - {x: -1, y: 0}
+    - rid: 3512172802854092800
+      type: {class: TurnActorAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: TurnActorAction
+        waitForCompletion: 1
+        actor:
+          isPlayer: 1
+          character: {fileID: 0}
+        direction: 3
+    - rid: 3512172802854092802
+      type: {class: TurnActorAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: TurnActorAction
+        waitForCompletion: 1
+        actor:
+          isPlayer: 0
+          character: {fileID: 1073630008}
+        direction: 3
+    - rid: 3512172802854092803
+      type: {class: DialogueAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: DialogueAction
+        waitForCompletion: 1
+        dialog:
+          lines:
+          - Whelp, see ya later!
+    - rid: 3512172802854092804
+      type: {class: TeleportObjectAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: TeleportObjectAction
+        waitForCompletion: 1
+        go: {fileID: 1341588833}
+        position: {x: 3.5, y: 16.8}
+    - rid: 3512172802854092805
+      type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
+      data:
+        _name: MoveActorAction
+        waitForCompletion: 1
+        actor:
+          isPlayer: 0
+          character: {fileID: 1073630008}
+        movePatterns:
+        - {x: -8, y: 0}
     - rid: 4244832188517056512
       type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
       data:
@@ -675,7 +723,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1073630007}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1341588833}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e64758302dc4144db0a0cbcd3469568, type: 3}
@@ -2258,6 +2306,12 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1341588833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7555392609333329705, guid: b534529ed4fc80f4d944a78f392e474f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1073630007}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1944546067
 GameObject:
   m_ObjectHideFlags: 0
