@@ -102,4 +102,4 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 97. Cutscenes 3 - Parallel Actions
 98. Customizing Cutscene Actor Selection UI
 99. More Cutscene Actions
-
+100. Improving Cutscenes
