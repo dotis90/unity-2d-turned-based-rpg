@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Utils.StateMachine;
 
 public enum GameState {  FreeRoam, Battle, Dialog, Menu, PartyScreen, Bag, Cutscene, Paused, Evolution, Shop }
 
@@ -18,6 +19,8 @@ public class GameController : MonoBehaviour
     GameState state;
     GameState prevState;
     GameState stateBeforeEvolution;
+
+    public StateMachine<GameController> StateMachine { get; private set; }
 
     public SceneDetails CurrentScene { get; private set; }
     public SceneDetails PrevScene { get; private set; }
@@ -44,6 +47,9 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        StateMachine = new StateMachine<GameController>(this);
+        StateMachine.ChangeState(FreeRoamState.i);
+
         battleSystem.OnBattleOver += EndBattle;
 
         partyScreen.Init();
@@ -172,17 +178,18 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (state == GameState.FreeRoam)
-        {
-            playerController.HandleUpdate();
+        StateMachine.Execute();
+        //if (state == GameState.FreeRoam)
+        //{
+        //    playerController.HandleUpdate();
 
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                menuController.OpenMenu();
-                state = GameState.Menu;
-            }
-        }
-        else if(state == GameState.Cutscene)
+        //    if (Input.GetKeyDown(KeyCode.Return))
+        //    {
+        //        menuController.OpenMenu();
+        //        state = GameState.Menu;
+        //    }
+        //}
+        if(state == GameState.Cutscene)
         {
             playerController.Character.HandleUpdate();
         }
@@ -280,6 +287,18 @@ public class GameController : MonoBehaviour
         {
             StartCoroutine(Fader.i.FadeOut(0.5f));
         }       
+    }
+
+    private void OnGUI()
+    {
+        var style = new GUIStyle();
+        style.fontSize = 24;
+
+        GUILayout.Label("STATE STACK", style);
+        foreach (var state in StateMachine.StateStack)
+        {
+            GUILayout.Label(state.GetType().ToString(), style);
+        }
     }
 
     public GameState State => state;
