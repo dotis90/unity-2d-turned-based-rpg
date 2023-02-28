@@ -168,16 +168,7 @@ public class GameController : MonoBehaviour
     private void Update()
     {
         StateMachine.Execute();
-        //if (state == GameState.FreeRoam)
-        //{
-        //    playerController.HandleUpdate();
 
-        //    if (Input.GetKeyDown(KeyCode.Return))
-        //    {
-        //        menuController.OpenMenu();
-        //        state = GameState.Menu;
-        //    }
-        //}
         if(state == GameState.Cutscene)
         {
             playerController.Character.HandleUpdate();
@@ -189,21 +180,6 @@ public class GameController : MonoBehaviour
         else if (state == GameState.Dialog)
         {
             DialogueManager.Instance.HandleUpdate();
-        }
-        else if (state == GameState.PartyScreen)
-        {
-            Action onSelected = () =>
-            {
-                // TODO: Go to summary screen
-            };
-
-            Action onBack = () =>
-            {
-                partyScreen.gameObject.SetActive(false);
-                state = GameState.FreeRoam;
-            };
-
-            partyScreen.HandleUpdate(onSelected, onBack);
         }
         else if (state == GameState.Bag)
         {

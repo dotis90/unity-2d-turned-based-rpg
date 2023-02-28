@@ -2915,6 +2915,7 @@ GameObject:
   - component: {fileID: 3750460195299462894}
   - component: {fileID: 7009249429506608914}
   - component: {fileID: 4715492689837231812}
+  - component: {fileID: 315417636053010653}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -3079,6 +3080,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuController: {fileID: 0}
+--- !u!114 &315417636053010653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399398308430946201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c4c825516db084e859a9c7bfe09210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  partyScreen: {fileID: 7283427367063111132}
 --- !u!1 &8399398308453246083
 GameObject:
   m_ObjectHideFlags: 0
