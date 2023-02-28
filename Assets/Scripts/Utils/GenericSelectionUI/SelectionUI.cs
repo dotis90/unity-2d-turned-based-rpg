@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,11 +8,14 @@ namespace Utils.GenericSelectionUI
     public class SelectionUI<T> : MonoBehaviour where T : ISelectableItem
     {
         List<T> items;
-        float selectedItem = 0;
+        int selectedItem = 0;
 
         float selectionTimer = 0;
 
         const float selectionSpeed = 5f;
+
+        public event Action<int> OnSelected;
+        public event Action OnBack;
 
         public void SetItems(List<T> items)
         {
@@ -23,7 +27,7 @@ namespace Utils.GenericSelectionUI
         {
             UpdateSelectionTimer();
 
-            float prevSelection = selectedItem;
+            int prevSelection = selectedItem;
 
             HandleListSelection();
 
@@ -32,6 +36,15 @@ namespace Utils.GenericSelectionUI
             if (selectedItem != prevSelection)
             {
                 UpdateSelectionInUI();
+            }
+
+            if (Input.GetButtonDown("Action"))
+            {
+                OnSelected?.Invoke(selectedItem);
+            }
+            else if (Input.GetButtonDown("Back"))
+            {
+                OnBack?.Invoke();
             }
         }
 
