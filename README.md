@@ -108,3 +108,4 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 103. Generic Selector 2
 104. Refactor Party Screen with Generic Selector & State Stack
 105. Refactor Inventory Screen
+106. Refactor Using Items
