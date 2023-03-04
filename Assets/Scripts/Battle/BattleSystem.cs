@@ -166,7 +166,7 @@ public class BattleSystem : MonoBehaviour
                 state = BattleState.RunningTurn;
             };
 
-            moveSelectionUI.HandleMoveSelection(onMoveSelected);
+            // moveSelectionUI.HandleMoveSelection(onMoveSelected);
         }
     }
 
