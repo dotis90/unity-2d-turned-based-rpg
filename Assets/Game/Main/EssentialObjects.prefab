@@ -2919,6 +2919,7 @@ GameObject:
   - component: {fileID: 3980995760430631682}
   - component: {fileID: 3265999261160253404}
   - component: {fileID: 943250700210522956}
+  - component: {fileID: 8243618998210468278}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -3136,6 +3137,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSelectionUI: {fileID: 2091786305716374566}
+--- !u!114 &8243618998210468278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8399398308430946201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc05c64a08ee034d8eee1716574aff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleSystem: {fileID: 8399398307207577528}
 --- !u!1 &8399398308453246083
 GameObject:
   m_ObjectHideFlags: 0
