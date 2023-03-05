@@ -110,3 +110,5 @@ A sample project for a turned based RPG game that uses Pokemon as its foundation
 105. Refactor Inventory Screen
 106. Refactor Using Items
 107. Refactor Forgetting Moves
+108. Refactor Battle State
+
