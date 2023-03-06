@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using Utils.StateMachine;
 
 public enum BattleStates
 {
@@ -44,7 +45,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] Image playerImage;
     [SerializeField] Image trainerImage;
     [SerializeField] GameObject pokeballSprite;
-    [SerializeField] MoveSelectionUI moveSelectionUI;
+    [SerializeField] MoveToForgetSelectionUI moveSelectionUI;
     [SerializeField] InventoryUI inventoryUI;
 
     [Header("Audio")]
@@ -56,6 +57,8 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] Image backgroundImage;
     [SerializeField] Sprite grassBackground;
     [SerializeField] Sprite waterBackground;
+
+    public StateMachine<BattleSystem> StateMachine { get; private set; }
 
     public event Action<bool> OnBattleOver;
 
@@ -113,15 +116,9 @@ public class BattleSystem : MonoBehaviour
     // Update is called once per frame
     public void HandleUpdate()
     {
-        if (state == BattleStates.ActionSelection)
-        {
-            HandleActionSelection();
-        }
-        else if (state == BattleStates.MoveSelection)
-        {
-            HandleMoveSelection();
-        }
-        else if (state == BattleStates.PartyScreen)
+        StateMachine.Execute();
+
+        if (state == BattleStates.PartyScreen)
         {
             HandlePartySelection();
         }
@@ -172,6 +169,8 @@ public class BattleSystem : MonoBehaviour
 
     public IEnumerator SetupBattle()
     {
+        StateMachine = new StateMachine<BattleSystem>(this);
+
         playerUnit.Clear();
         enemyUnit.Clear();
 
@@ -218,7 +217,8 @@ public class BattleSystem : MonoBehaviour
 
         escapeAttempts = 0;
         partyScreen.Init();
-        ActionSelection();
+
+        StateMachine.ChangeState(ActionSelectionState.i);
     }
 
 
@@ -983,4 +983,9 @@ public class BattleSystem : MonoBehaviour
             }
         }
     }
+
+    public BattleDialogBox DialogBox => dialogBox;
+
+    public BattleUnit PlayerUnit => playerUnit;
+    public BattleUnit EnemyUnit => enemyUnit;
 }
